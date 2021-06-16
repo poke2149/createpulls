@@ -74,12 +74,12 @@ function flag_change_windows(b_flag_window){
         setTimeout(() => {
             document.getElementById("selet-job-img").style.display = "none";
             document.getElementById("explanation-job-img").style.display = "block";
-        }, 77);
+        }, 0);
     }else{
         setTimeout(() => {
             document.getElementById("selet-job-img").style.display = "block";
             document.getElementById("explanation-job-img").style.display = "none";
-        }, 77);
+        }, 0);
     }
 
 }
